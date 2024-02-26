@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SiSC Front-End</title>
+    <link rel="icon" href="assets/images/croco.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13d2f69dc8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="section_TopPage_Destination">
+        <nav id="navigation_Bar">
+            <a href="#section_TopPage_Text" class="navigation_BarObjects">Acasă</a>
+            <a href="#locatiiMidPage" class="navigation_BarObjects">Locații</a>
+            <img src="assets/images/croco.png" alt="Croco" class="navigation_BarObjects" id="croco_nav_bar">
+            <a href="#section_Testimoniale" class="navigation_BarObjects">Testimoniale</a>
+            <a href="#SectionBottomPageFormular"class="navigation_BarObjects">Rezervă</a>
+        </nav>
+
+        <div id="introductiveText">
+            <h1><span>CROCO</span> Travels</h1>
+            <p style="text-align: justify">Croco Travels este una dintre agențiile de turism care îți oferă atât vacanțe de neuitat, cât și posibilitatea de a bea o bere rece cu prietenii pe timp de vară sau un vin roșu cu gagica sau gagiul în sezonul rece.</p>
+        </div>
+
+        
+            <form action="" id="formularTravel">
+                <div class="inpLabForm">
+                    <label for="location_box">Destinatie</label>
+                    <input type="text" id="location_box" class="input_check-in_out">
+                </div>
+
+                <div class="inpLabForm">
+                    <label for="start">Check-in</label>
+                    <input type="date" name="trip-start" id="start" class="input_check-in_out">
+                </div>
+
+                <div class="inpLabForm">
+                    <label for="stop">Check-out</label>
+                    <input type="date" name="trip-stop" id="stop" class="input_check-in_out">
+                </div>
+
+                <input type="submit" value="Caută" id="buton_search">
+            </form>
+    </section>
+
+    <section id="section_TopPage_Text" style="color: black;">
+        <h2 id="header_section_TopPage_Text" style="position: relative;left: 7rem;">Cele mai frumoase locuri de pe pământ</h2>
+        <div id="textPozaTopPage">
+            <p id="textIntroTopPage" style="text-align: justify">Oricând ai nevoie de o locație ideală pentru vacanța ta, poți apela la un corcodil săritor, care să-ți arate cele mai mișto cârciume, pub-uri, concerte și proiecte SiSC.  Bineînțeles că tot locul lor preferat va rămâne La Radu, unde fiecare crocodil a apucat să bea de supărare din cauza butonului ăla care nu se centrează sau a sidebar-ului ăla problematic de pe varianta de mobile. Prin urmare, hai la pas, alături de Croco!!!</p>
+            <img src="assets/images/cap de croco.png" alt="cap de croco" style="width: 7%;height: auto;position: relative;right: 3rem;bottom: 4rem;">
+        </div>
+        <div id="clusterPozeTopPage">
+            <div style="display: flex;flex-direction: column;">
+                <img src="assets/images/place1.jpeg" alt="" class="pozaDinCluster">
+                <img src="assets/images/place2.jpg" alt="" class="pozaDinCluster">
+            </div>
+            <img src="assets/images/place3.jpeg" alt="" class="pozaDinCluster" style="position: relative;bottom: 3rem;">
+        </div>
+    </section>
+
+    <section id="locatiiMidPage">
+        <h2>Cele Mai Populare Locații</h2>
+        <div id="ordonareCasuteMidPage">
+            <div class="CasutaLocatiiMidPageGratar">
+                <img src="assets/images/laGratar.jpg" alt="La Gratar" style="height: 210px;margin-right: 30px;width: 250px">
+                <div class="TextCasutaLocatiiMidPage">
+                    <h3>La Gratar</h3>
+                    <p class="textMicLocatii"><i class="fa-solid fa-calendar-days" style="margin-right: 10px;"></i>2 zile</p>
+                    <p class="textMicLocatii"><i class="fa-solid fa-person" style="margin-right: 10px;"></i>30 persoane</p>
+                    <p class="textMicLocatii" style="font-size: 80%; font-weight: bold;"><i class="fa-solid fa-money-bill" style="margin-right: 7px;"></i>500 RON</p>
+                    <input type="button" value="Cumpără" style="color: black;background-color: #ff9900; padding: 3%; border-radius: 7px;">
+                </div>
+            </div>
+    
+            <div class="CasutaLocatiiMidPageGratar">
+                <img src="assets/images/cantinaMoxa.jpg" alt="Cantina Moxa" style="height: 210px;margin-right: 30px;width: 250px">
+                <div class="TextCasutaLocatiiMidPage">
+                    <h3>Cantina Moxa</h3>
+                    <p class="textMicLocatii"><i class="fa-solid fa-calendar-days" style="margin-right: 10px;"></i>1 zi</p>
+                    <p class="textMicLocatii"><i class="fa-solid fa-person" style="margin-right: 10px;"></i>4 persoane</p>
+                    <p class="textMicLocatii" style="font-size: 80%; font-weight: bold;"><i class="fa-solid fa-money-bill" style="margin-right: 7px;"></i>10 RON</p>
+                    <input type="button" value="Cumpără" style="color: black;background-color: #ff9900; padding: 3%; border-radius: 7px;">
+                </div>
+            </div>
+    
+            <div class="CasutaLocatiiMidPageGratar">
+                <img src="assets/images/parterCSIE.jpg" alt="Parter CSIE" style="height: 210px;margin-right: 30px;width: 250px">
+                <div class="TextCasutaLocatiiMidPage">
+                    <h3>Parterul De La CSIE</h3>
+                    <p class="textMicLocatii"><i class="fa-solid fa-calendar-days" style="margin-right: 10px;"></i>5 zile</p>
+                    <p class="textMicLocatii"><i class="fa-solid fa-person" style="margin-right: 10px;"></i>3 persoane</p>
+                    <p class="textMicLocatii" style="font-size: 80%; font-weight: bold;"><i class="fa-solid fa-money-bill" style="margin-right: 7px;"></i>900 RON</p>
+                    <input type="button" value="Cumpără" style="color: black;background-color: #ff9900; padding: 3%; border-radius: 7px;">
+                </div>
+            </div>
+    
+            <div class="CasutaLocatiiMidPageGratar">
+                <img src="assets/images/SediulSiSC.jpg" alt="La Gratar" style="height: 210px;margin-right: 30px;width: 250px;">
+                <div class="TextCasutaLocatiiMidPage">
+                    <h3>Sediul SISC</h3>
+                    <p class="textMicLocatii"><i class="fa-solid fa-calendar-days" style="margin-right: 10px;"></i>7 zile</p>
+                    <p class="textMicLocatii"><i class="fa-solid fa-person" style="margin-right: 10px;"></i>3 persoane</p>
+                    <p class="textMicLocatii" style="font-size: 80%; font-weight: bold;"><i class="fa-solid fa-money-bill" style="margin-right: 7px;"></i>1200 RON</p>
+                    <input type="button" value="Cumpără" style="color: black;background-color: #ff9900; padding: 3%; border-radius: 7px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_Testimoniale">
+        <h3 style="font-size: 25px;">Ce zic clienții?</h3>
+        <p style="width: 80%;text-align: justify;padding-left: 80px;font-size: 17px;">Agenția <span style="color: #ff9900;">CROCO</span> Travel se ocupă atât cu implementarea unor vacanțe de succes, cât și a unor site-uri și aplicații bombastice. Produsele oferite de agenția noastră ajută la realizarea unor proiecte de succes marca <span style="color: #ff9900;">SiSC</span>, care au ca scop reprezentarea studențească. Practic, atât noi cât și restul Agențiilor-SiSC suntem cei care vin în ajutorul vostru, fie în sesiune, când căutați o soluție salvatoare pentru a nu ajunge la restanță, fie când faceți primii voștri pași în viața de adult și doriți să găsiți un job și așa mai departe.
+            <br>
+            <br> Așadar, mai jos vă prezentăm câteva opinii din partea clienților <span style="color: #ff9900;">CROCO</span> Travel:</p>
+            
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="pagina_carusel_miscator">
+                        <div class="partea_stanga_carusel">
+                            <div class="parte_stanga_jos_carusel">
+                                <img src="assets/images/margi.jpeg" alt="margi" class="poza_din_carusel">
+                                <div class="text_iconite_carusel">
+                                    <div class="text_carusel_stanga">
+                                        <h3>Mărgi</h3>
+                                        <p>Telefon: 0770474272</p>
+                                        <p>E-mail: matiber24@gmail.com</p>
+                                    </div>
+                                    <div class="iconite_carusel">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parte_dreapta_carusel">
+                                <p>
+                                În călătoria SiSC am reușit <br>
+                                să înțeleg sensul expresiei <br>
+                                “SiSC-ul îți dă cât îi oferi”, <br>
+                                deoarece mie mi-a oferit <br>
+                                o a doua casă, o familie <br>
+                                pe care știu că mă pot <br>
+                                baza. Prin urmare, vă <br>
+                                aștept pe cât mai mulți <br>
+                                dintre voi, să ne pornim la <br>
+                                drum împreună!!!
+                                </p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="pagina_carusel_miscator">
+                        <div class="partea_stanga_carusel">
+                            <div class="parte_stanga_jos_carusel">
+                                <img src="assets/images/andreea.jpeg" alt="andreea" class="poza_din_carusel">
+                                <div class="text_iconite_carusel">
+                                    <div class="text_carusel_stanga">
+                                        <h3>Andreea</h3>
+                                        <p>Telefon: 0727590226</p>
+                                        <p>E-mail: costareebsbwagmail.com</p>
+                                    </div>
+                                    <div class="iconite_carusel">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parte_dreapta_carusel">
+                                <p>
+                                Alături de CROCO Travel <br>
+                                am reușit să văd atât <br>
+                                drumul spre toaletă când <br>
+                                vomitam de la prea multă <br>
+                                băutură în teambuilding-<br>
+                                uri, dar și ce înseamnă cu <br>
+                                adevărat prietenia. Astfel, <br>
+                                aștept să vă pot ghida și <br>
+                                eu la rândul meu, către <br>
+                                toaletă, în fiecare <br>
+                                teambuilding!!!     
+                                </p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="pagina_carusel_miscator">
+                        <div class="partea_stanga_carusel">
+                            <div class="parte_stanga_jos_carusel">
+                                <img src="assets/images/dudu.jpg" alt="dudu" class="poza_din_carusel">
+                                <div class="text_iconite_carusel">
+                                    <div class="text_carusel_stanga">
+                                        <h3>Dudu</h3>
+                                        <p>Telefon: 0770684463</p>
+                                        <p>E-mail: vladdudu13@gmail.com</p>
+                                    </div>
+                                    <div class="iconite_carusel">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parte_dreapta_carusel">
+                                <p>Niciun chiul nu se <br>
+                                compară cu chiulul alături <br>
+                                de prietenii tăi, pentru a <br>
+                                putea urca la timp site-ul <br>
+                                pe server sau pentru a <br>
+                                rezolva bug-ul ăla de care <br>
+                                n-ai avut chef cu o seară <br>
+                                înainte. Din acest motiv, vă <br>
+                                invit pe toți să chiulim <br>
+                                împreună!!!
+                                </p>  
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </section>
+
+    <section id="SectionBottomPageFormular">
+        <h3>Ofertă personalizată</h3>
+        <div id="formularAranjat">
+            <form action="">
+                <div id="formularDest">
+                    <h4>Date Personale</h4>
+                    <label for="Nume" class="labelForm">Nume</label>
+                    <input type="text" id="Nume" class="textBoxForm">
+                    <label for="Prenume" class="labelForm">Prenume</label>
+                    <input type="text" id="Prenume" class="textBoxForm">
+                    <label for="Nrtel" class="labelForm">Număr Telefon</label>
+                    <input type="text" id="Nrtel" class="textBoxForm">
+                    <label for="Email" class="labelForm">Email</label>
+                    <input type="email" id="Email" class="textBoxForm">
+                    <h4>Despre ofertă</h4>
+                    <label for="Dest" class="labelForm">Destinație</label>
+                    <input type="text" id="Dest" class="textBoxForm">
+                    <label for="NRz" class="labelForm">Număr de zile</label>
+                    <input type="text" id="NRz" class="textBoxForm">
+                    <label for="Obs" class="labelForm">Observații</label>
+                    <textarea name="Obs" id="Obs" cols="50" rows="20" style="resize: none;height: 170px;border-radius: 7px;"></textarea>
+                    <div style="padding-top: 25px;" id="butoaneForm">
+                        <input type="reset" value="Resetează" style=" border: whitesmoke solid 1px;color: whitesmoke;background-color: #236235;" class="butonForm">
+                        <input type="submit" value="Trimite" style="background-color: #ff9900;color: black;" class="butonForm">
+                    </div>
+                </div>
+            </form>
+            <img src="assets/images/crocoFormular.jpg" alt="Croco Formular" height="500px" style="border-radius: 10px;margin-top: 80px;">
+        </div>
+    </section>
+</body>
+</html>
